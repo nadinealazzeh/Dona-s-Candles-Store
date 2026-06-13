@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Dona's Candles Store</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/products.css">
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="../index.html" class="logo">
+                <img src="../images/Logo1.png" alt="Candle Store Logo - Home">
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+            <label for="nav-toggle" class="nav-toggle-label">☰</label>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./products.html" class="active" aria-current="page">Products</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="main-content">
+        <section class="products-hero" aria-labelledby="products-heading">
+            <div class="container">
+                <h1 id="products-heading">Our Candle Collection</h1>
+                <p>Discover our handcrafted candles made with natural ingredients and essential oils.</p>
+            </div>
+        </section>
+
+        <section class="products-filter" aria-label="Product filters">
+            <div class="container">
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All Products</button>
+                    <button class="filter-btn" data-filter="soy">Soy Candles</button>
+                    <button class="filter-btn" data-filter="aromatherapy">Aromatherapy</button>
+                    <button class="filter-btn" data-filter="seasonal">Seasonal</button>
+                    <button class="filter-btn" data-filter="gift">Gift Sets</button>
+                </div>
+                <div class="sort-options">
+                    <label for="sort">Sort by:</label>
+                    <select id="sort">
+                        <option value="featured">Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="name">Name</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-grid-section" aria-label="Products listing">
+            <div class="container">
+                <div class="products-grid">
+                    <article class="product-card" data-category="soy">
+                        <div class="product-image">
+                            <img src="../images/Vanilla.jpg" alt="Vanilla Bean soy candle in glass container" width="300" height="300">
+                            <span class="product-badge">Bestseller</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Vanilla Bean</h3>
+                            <p class="product-desc">Warm, comforting vanilla with notes of caramel and cream.</p>
+                            <div class="product-meta">
+                                <span class="product-price">$24.99</span>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(128)</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-category="aromatherapy">
+                        <div class="product-image">
+                            <img src="../images/Lavender.jpg" alt="Lavender Fields aromatherapy candle" width="300" height="300">
+                        </div>
+                        <div class="product-info">
+                            <h3>Lavender Fields</h3>
+                            <p class="product-desc">Calming lavender essential oil blend for relaxation and stress relief.</p>
+                            <div class="product-meta">
+                                <span class="product-price">$26.99</span>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(96)</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-category="soy">
+                        <div class="product-image">
+                            <img src="../images/Amber.jpg" alt="Sandalwood & Amber luxury candle" width="300" height="300">
+                            <span class="product-badge">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Sandalwood & Amber</h3>
+                            <p class="product-desc">Earthy, woody scent with warm amber undertones for a cozy atmosphere.</p>
+                            <div class="product-meta">
+                                <span class="product-price">$29.99</span>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="rating-count">(42)</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-category="seasonal">
+                        <div class="product-image">
+                            <img src="../images/Pumpkin.jpg" alt="Pumpkin Spice seasonal candle" width="300" height="300">
+                            <span class="product-badge">Seasonal</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Pumpkin Spice</h3>
+                            <p class="product-desc">Warm autumn spices with notes of cinnamon, nutmeg, and clove.</p>
+                            <div class="product-meta">
+                                <span class="product-price">$27.99</span>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="rating-count">(57)</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-category="aromatherapy">
+                        <div class="product-image">
+                            <img src="../images/Eucalyptus.jpg" alt="Eucalyptus Mint aromatherapy candle" width="300" height="300">
+                        </div>
+                        <div class="product-info">
+                            <h3>Eucalyptus Mint</h3>
+                            <p class="product-desc">Invigorating blend of eucalyptus and peppermint for clarity and focus.</p>
+                            <div class="product-meta">
+                                <span class="product-price">$25.99</span>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(83)</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-category="gift">
+                        <div class="product-image">
+                            <img src="../images/Set.jpg" alt="Holiday Gift Set with three candles" width="300" height="300">
+                            <span class="product-badge">Gift Set</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Holiday Collection</h3>
+                            <p class="product-desc">Three festive scents: Cranberry, Balsam Fir, and Cinnamon.</p>
+                            <div class="product-meta">
+                                <span class="product-price">$68.99</span>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(37)</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination">
+                    <button class="pagination-btn" disabled>Previous</button>
+                    <button class="pagination-btn active">1</button>
+                    <button class="pagination-btn">2</button>
+                    <button class="pagination-btn">3</button>
+                    <button class="pagination-btn">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-features" aria-label="Product features">
+            <div class="container">
+                <h2 class="section-heading">Why Choose Our Candles</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature-icon"><img src="../images/icon1.png" alt="Natural Ingredients"></div>
+                        <h3>Natural Ingredients</h3>
+                        <p>Made with 100% natural soy wax and essential oils</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><img src="../images/icon7.png" alt="Fair"></div>
+                        <h3>Clean Burning</h3>
+                        <p>Long-lasting with minimal soot and even wax pool</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><img src="../images/icon3.png" alt="Hand-Poured"></div>
+                        <h3>Hand-Poured</h3>
+                        <p>Each candle is carefully crafted with attention to detail</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><img src="../images/icon8.png" alt="gift"></div>
+                        <h3>Eco-Friendly Packaging</h3>
+                        <p>Sustainable materials that are recyclable or biodegradable</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="../index.html" class="footer-logo">
+                        <img src="../images/Logo2.png" alt="Candle Store" width="80" height="40">
+                    </a>
+                    <p>Handcrafted candles made with natural ingredients and sustainable practices.</p>
+                </div>
+
+                <div class="footer-nav">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="../pages/about.html">Our Story</a></li>
+                        <li><a href="../pages/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <address>
+                        <p>Dona's Candles<br>Ramallah, Palestine</p>
+                        <p>Email: <a href="mailto:info@donacandles.com">info@donacandles.com</a></p>
+                        <p>Phone: <a href="tel:+15551234567">970 592 213 987</a></p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Candle Store. All rights reserved.</p>
+                <p>
+                    <a href="#">Privacy Policy</a> |
+                    <a href="#">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

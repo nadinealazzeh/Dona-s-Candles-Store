@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dona's Candles Store</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="../index.html" class="logo">
+                <img src="../images/Logo1.png" alt="Candle Store Logo - Home">
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+            <label for="nav-toggle" class="nav-toggle-label">☰</label>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="./contact.html" class="active" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="main-content">
+        <section class="contact-hero" aria-labelledby="contact-heading">
+            <div class="container">
+                <h1 id="contact-heading">Get in Touch</h1>
+                <p>Have questions about our products or need assistance? We'd love to hear from you.</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h3>Address</h3>
+                                <address>Ramallah, Palestine</address>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@donacandles.com">info@donacandles.com</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+970592213987">970 592 213 987</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Hours</h3>
+                                <p>Saturday - Thersday : 9AM - 5PM<br>Friday: 14PM - 5PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h2>Send us a Message</h2>
+                        <form id="contactForm" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required aria-required="true">
+                                <span id="nameError" class="error-message" aria-live="polite"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required aria-required="true">
+                                <span id="emailError" class="error-message" aria-live="polite"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                                <span id="messageError" class="error-message" aria-live="polite"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq" aria-labelledby="faq-heading">
+            <div class="container">
+                <h2 id="faq-heading" class="section-heading">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <details class="faq-item">
+                        <summary>How long do your candles typically burn?</summary>
+                        <p>Our candles burn for approximately 40-50 hours, depending on the size and burning conditions. For optimal burn time, keep the wick trimmed to 1/4 inch and allow the candle to create a full melt pool on the first burn.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Are your candles vegan and cruelty-free?</summary>
+                        <p>Yes! All our candles are made with 100% plant-based soy wax and are never tested on animals. We use cotton wicks and essential oils for fragrance.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Do you offer international shipping?</summary>
+                        <p>Currently, we ship within Palestine only. We're working on expanding our shipping options in the future.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Can I return a candle if I don't like the scent?</summary>
+                        <p>We want you to love your purchase. If you're not satisfied with your candle, we offer returns within 14 days of purchase. The candle must be unused and in its original packaging.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="../index.html" class="footer-logo">
+                        <img src="../images/Logo2.png" alt="Candle Store">
+                    </a>
+                    <p>Handcrafted candles made with natural ingredients and sustainable practices.</p>
+                </div>
+
+                <div class="footer-nav">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="../pages/about.html">Our Story</a></li>
+                        <li><a href="../pages/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <address>
+                        <p>Dona's Candles<br>Ramallah, Palestine</p>
+                        <p>Email: <a href="mailto:info@donacandles.com">info@donacandles.com</a></p>
+                        <p>Phone: <a href="tel:+15551234567">970 592 213 987</a></p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Candle Store. All rights reserved.</p>
+                <p>
+                    <a href="#">Privacy Policy</a> |
+                    <a href="#">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/form-validation.js"></script>
+
+</body>
+
+</html>
